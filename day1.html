@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Day 1: Bootstrap Theme Simply Me (a portfolio)</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="day1.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Travis Lannoye</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">WHO</a></li>
+                        <li><a href="#">WHAT</a></li>
+                        <li><a href="#">WHERE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container-fluid bg-1 text-center">
+            <h3>Who Am I</h3>
+            <img src="whoami.jpg" class="img-responsive img-circle whoimg" alt="me">
+            <p>I'm a husband, a father, a home-owner, and an aspiring full-stack developer.</p>
+        </div>
+        
+        <div class="container-fluid bg-2 text-center">
+            <h3>What Am I Doing?</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>Calculator app</p>
+                    <img src="http://compass1.org/wp-content/uploads/2015/06/Calculator_clipped_rev_1.png" class="img-responsive whatimg" alt="Calculator">
+                </div>
+                <div class="col-sm-4">
+                    <p>Simon game</p>
+                    <img src="http://www.virtual-pet-game.com/images/Games/Simon/Simon.svg" class="img-responsive whatimg" alt="Pomodoro clock">
+                </div>
+                <div class="col-sm-4">
+                    <p>Wikipedia</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/842px-Wikipedia-logo-v2.svg.png" class="img-responsive whatimg" alt="Wikipedia">
+                </div>
+            </div>
+            <a href="#" class="btn btn-default btn-lg">
+                <span class="glyphicon glyphicon-search"></span>
+                Search
+            </a>
+        </div>
+        
+        <div class="container-fluid bg-3 text-center">
+            <h3>Where To Find Me?</h3>
+        </div>
+        
+        <footer class="container-fluid bg-4 text-center">
+            <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+        </footer>
+    </body>
+</html>
